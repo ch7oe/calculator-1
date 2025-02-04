@@ -64,7 +64,7 @@ while True:
         result = mod(float(num1), float(num2))
 
     elif operator == "x+":
-        result = add_mult(float(num1), float(num2), float(num3))
+        result = add_multi(float(num1), float(num2), float(num3))
 
     elif operator == "cubes+":
         result = add_cubes(float(num1), float(num2))
